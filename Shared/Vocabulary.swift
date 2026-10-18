@@ -50,7 +50,7 @@ enum Vocabulary {
         .init("teraz", "now", "Teraz się uczę.", "I'm studying now.", category: "Time"),
         .init("jeden", "one", "Mam jeden bilet.", "I have one ticket.", category: "Numbers"),
         .init("dwa", "two", "Mam dwa koty.", "I have two cats.", category: "Numbers"),
-        .init("trzy", "three", "Potrzebuję trzy minuty.", "I need three minutes.", category: "Numbers"),
+        .init("trzy", "three", "Potrzebuję trzech minut.", "I need three minutes.", category: "Numbers"),
         .init("duży", "big", "To jest duży pokój.", "This is a big room.", category: "Descriptions"),
         .init("mały", "small", "Mam mały ogród.", "I have a small garden.", category: "Descriptions"),
         .init("nowy", "new", "To jest mój nowy telefon.", "This is my new phone.", category: "Descriptions"),

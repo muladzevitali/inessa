@@ -44,9 +44,9 @@ struct LibraryView: View {
                 ContentUnavailableView.search(text: search)
                     .listRowBackground(Color.clear)
             } else {
-                ForEach(grouped, id: \.0) { category, words in
-                    Section(category) {
-                        ForEach(words) { word in
+                ForEach(grouped, id: \.0) { group in
+                    Section(group.0) {
+                        ForEach(group.1) { word in
                             VStack(alignment: .leading, spacing: 9) {
                                 HStack(alignment: .top, spacing: 10) {
                                     VStack(alignment: .leading, spacing: 5) {

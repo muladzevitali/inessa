@@ -11,7 +11,11 @@ enum AppTheme {
 }
 
 struct InessaCard<Content: View>: View {
-    @ViewBuilder let content: Content
+    let content: Content
+
+    init(@ViewBuilder content: () -> Content) {
+        self.content = content()
+    }
 
     var body: some View {
         content

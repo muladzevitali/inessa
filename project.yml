@@ -50,3 +50,14 @@ targets:
         CFBundleDisplayName: Inessa Word of the Day
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
+
+  InessaTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: InessaTests
+    dependencies:
+      - target: Inessa
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.inessa.polish.tests
