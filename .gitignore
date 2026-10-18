@@ -1,0 +1,9 @@
+# Generated Xcode project; regenerate with xcodegen generate
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM
+.DS_Store
+.swiftpm/
